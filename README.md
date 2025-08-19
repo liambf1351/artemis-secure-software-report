@@ -2,13 +2,13 @@
 Artemis Financial vulnerability assessment and secure software development report demonstrating secure coding practices.
 # CS 305 – Software Security Portfolio  
 
-## 📌 Artifact Submitted  
+## Artifact Submitted  
 For this course, I have submitted my completed **Artemis Financial [Vulnerability Assessment Report / Practices for Secure Software Report]**.  
 This document demonstrates my ability to identify software vulnerabilities and apply secure coding practices in a real-world scenario.  
 
 ---
 
-## 📝 Reflection  
+## Reflection  
 
 **Client and Requirements**  
 Artemis Financial is a financial services company that develops individualized financial plans for its clients, including savings, insurance, investments, and retirement planning. The company wanted to modernize its web application and ensure that sensitive financial data remained secure. My task was to assess vulnerabilities and recommend secure coding practices to strengthen their systems.  
@@ -43,13 +43,13 @@ This artifact serves as evidence of my growing expertise in secure software deve
 
 ---
 
-## 📂 Repository Contents  
-- `Project1-Artemis-Vulnerability-Assessment.pdf` *(if submitted)*  
-- `Project2-Artemis-Secure-Software-Report.pdf` *(if submitted)*  
-- `README.md` *(this file)*  
+## Repository Contents  
+- `Project1-Artemis-Vulnerability-Assessment.pdf`   
+- `Project2-Artemis-Secure-Software-Report.pdf`
+- `README.md` 
 
 ---
 
-## 👤 Author  
+## Author  
 **Liam Farrell**  
 Computer Science, SNHU  
