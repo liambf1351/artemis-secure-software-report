@@ -1,55 +1,51 @@
-# artemis-secure-software-report
-Artemis Financial vulnerability assessment and secure software development report demonstrating secure coding practices.
 # CS 305 – Software Security Portfolio  
 
 ## Artifact Submitted  
-For this course, I have submitted my completed **Artemis Financial [Vulnerability Assessment Report / Practices for Secure Software Report]**.  
-This document demonstrates my ability to identify software vulnerabilities and apply secure coding practices in a real-world scenario.  
+For this course, I chose to include my **Artemis Financial Practices for Secure Software Report** as the artifact for my portfolio. This project shows how I applied secure coding practices, implemented encryption, set up secure communications, and tested the application for vulnerabilities.  
 
 ---
 
 ## Reflection  
 
 **Client and Requirements**  
-Artemis Financial is a financial services company that develops individualized financial plans for its clients, including savings, insurance, investments, and retirement planning. The company wanted to modernize its web application and ensure that sensitive financial data remained secure. My task was to assess vulnerabilities and recommend secure coding practices to strengthen their systems.  
+Artemis Financial is a financial services company that builds personalized plans for clients covering savings, investments, insurance, and retirement. As part of their modernization, they needed stronger security in their web application to protect sensitive financial data. My role was to implement secure software practices, verify functionality, and document the results.  
 
 **What I Did Well**  
-I was thorough in identifying vulnerabilities through both manual code review and dependency analysis. I also provided clear mitigation strategies that followed industry best practices. Secure coding is essential because it protects client data, prevents costly breaches, and builds customer trust. Software security directly contributes to a company’s long-term stability and reputation.  
+I implemented a SHA-256 hashing algorithm, configured SSL/TLS certificates, and enforced secure HTTPS communication. I also ran the OWASP Dependency-Check tool to identify vulnerable third-party libraries. Secure coding matters because it prevents data breaches, protects client trust, and reduces business risk.  
 
 **Challenges and Helpful Aspects**  
-The most challenging part was analyzing third-party dependencies, since these often introduce hidden risks. This was also one of the most valuable parts of the project, as it gave me experience with tools like the **OWASP Dependency-Check Maven Plugin**, which I can use in future assessments.  
+One of the harder parts was configuring the TLS certificate correctly and making sure the application served traffic securely. This was also one of the most helpful learning opportunities because I gained hands-on experience with encryption and certificates.  
 
 **Increasing Layers of Security**  
-I applied multiple security layers, including strong input validation, secure encryption practices, and principle of least privilege. In the future, I would continue to use a combination of SAST (static analysis), DAST (dynamic testing), and penetration testing to assess vulnerabilities and decide on appropriate mitigation techniques.  
+Security was strengthened through multiple layers, including strong cryptography, encrypted communication, dependency scanning, and careful filtering of false positives in vulnerability reports. In the future, I would also use automated security testing tools and penetration testing to expand coverage.  
 
 **Ensuring Functionality and Security**  
-After refactoring the code, I ran functional tests to ensure the application behaved as expected and did not break features. I also re-scanned the application for vulnerabilities to confirm that no new security issues were introduced.  
+After refactoring, I tested the application to confirm that everything worked as expected. The `/hash` endpoint produced the correct checksum, the HTTPS connection worked with the new certificate, and the dependency scans confirmed that vulnerabilities had been addressed.  
 
 **Resources and Tools**  
-Key resources included:  
-- OWASP Dependency-Check plugin  
-- Oracle Java Secure Coding Guidelines  
-- *Iron-Clad Java: Building Secure Web Applications* (course text)  
-These reinforced best practices such as input validation, secure cryptography, and least privilege.  
+- SHA-256 for secure hashing  
+- Java keytool for SSL/TLS certificate generation  
+- OWASP Dependency-Check Maven plugin  
+- Oracle Java Secure Coding Guidelines and OWASP best practices  
 
 **What to Show Employers**  
-This project demonstrates my ability to:  
-- Conduct a professional vulnerability assessment  
-- Apply secure coding practices in Java-based applications  
-- Use industry tools and frameworks to identify and mitigate risks  
-- Document findings in a clear, professional way  
+This artifact highlights my ability to:  
+- Implement secure coding techniques  
+- Configure and deploy TLS for secure client-server communication  
+- Run vulnerability scans on external dependencies  
+- Document the process and results in a professional format  
 
-This artifact serves as evidence of my growing expertise in secure software development and would be a strong example to present to future employers.  
+It demonstrates both my technical skills and my understanding of industry best practices for secure software development.  
 
 ---
 
 ## Repository Contents  
-- `Project1-Artemis-Vulnerability-Assessment.pdf`   
-- `Project2-Artemis-Secure-Software-Report.pdf`
-- `README.md` 
+- `Project2-Artemis-Secure-Software-Report.pdf`  
+- `README.md`  
 
 ---
 
 ## Author  
-**Liam Farrell**  
+Liam Farrell  
 Computer Science, SNHU  
+
